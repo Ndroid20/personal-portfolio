@@ -7,10 +7,14 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <LinkedInIcon />
-        <GitHubIcon />
+        <a href="https://www.linkedin.com/in/anthony-romero-jorge/">
+          <LinkedInIcon />
+        </a>
+        <a href="https://github.com/Ndroid20">
+          <GitHubIcon />
+        </a>
       </div>
-      <p> &copy; 2022 url</p>
+      <p> &copy; 2022 https://anthony-romero-jorge.netlify.app/</p>
     </div>
   );
 };
