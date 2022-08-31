@@ -9,6 +9,7 @@ const ProjectDisplay = () => {
   return (
     <div className="project">
       <h1>{project.name}</h1>
+      {/* eslint-disable-next-line */}
       <img src={project.image} />
       <br />
       <p>
